@@ -1,0 +1,44 @@
+{
+  "name": "webview-state-bridge",
+  "version": "0.1.0",
+  "description": "State bridge between react-native apps which run a react app in a react-native-webview.",
+  "keywords": [
+    "react",
+    "react-native",
+    "webview",
+    "state",
+    "bridge",
+    "redux",
+    "react-redux",
+    "middleware",
+    "data",
+    "layer",
+    "provider",
+    "connect",
+    "synchronize",
+    "mirror",
+    "pwa",
+    "nextjs"
+  ],
+  "author": "Kieran Czerwinski <kierwinski@gmail.com>",
+  "homepage": "https://github.com/obsense/webview-state-bridge",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obsense/webview-state-bridge.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/obsense/webview-state-bridge/issues"
+  }
+}
