@@ -120,7 +120,7 @@ We strongly believe knowledge, work, and tools should be openly shared with the 
 - Documentation improvements.
 - Example app functionality additions (this would be amazing!).
 - Code contributions! Please feel free to dig into the code to fix a bug, [open a PR](TODO-url-here), and we'll make sure the effort gets the attention it deserves.
-- Feedback! All important to improving anything, we love to hear how you or your organization is using this code, what's working, what could be improved, and what isn't appreciated.
+- Feedback! All important to improving anything, we love to hear how you or your organization are using this code, what's working, what could be improved, and what isn't appreciated.
 - Resources! If there's any related project/effort that we can link to and help our community find resources and grow, the better! Open an issue to mention it or better yet open a PR to add to the documentation.
 
 ## Resources

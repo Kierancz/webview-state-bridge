@@ -96,11 +96,11 @@ WIP
 
 ## Example Integration
 
-We wanted the setup and experience of using this package to be as quick and enjoyable, so we've created two example apps to demo how this package enables easy universal React apps that can run anywhere.
+We wanted the setup and experience of using this package to be quick and enjoyable, so we've created two example apps to demo how this package enables easy universal react apps that can run anywhere.
 
-The first app is a [Next.js](https://nextjs.org/) (hybrid SSG/SSR React framework) [PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps) that demos various hardware integrations through the `webview-state-bridge`.
+The first app is a [Next.js](https://nextjs.org/) (hybrid SSG/SSR react framework) [PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps) that demos various hardware integrations through the `webview-state-bridge`.
 
-The second is a simple `react-native` app running without the overhead of [Expo](https://expo.io/) (`webview-state-bridge` is fully compatible with Expo). The native app code is minimal, as a primary goal of this package is to provide the means to use traditional rock-solid web technologies we know and love such as React for the majority of the app code, while react-native is used as an native API provider to the react app with `webview-state-bridge` as the intuitive bridge between the two.
+The second is a simple `react-native` app running without the overhead of [Expo](https://expo.io/) (`webview-state-bridge` is fully compatible with Expo). The native app code is minimal, as a primary goal of this package is to provide the means to use traditional rock-solid web technologies we know and love such as react for the majority of the app code, while react-native is used as a native API provider to the react app with `webview-state-bridge` as the intuitive bridge between the two.
 
 ### Demo Usage
 
@@ -132,7 +132,7 @@ We strongly believe knowledge, work, and tools should be openly shared with the 
 - Documentation improvements.
 - Example app functionality additions (this would be amazing!).
 - Code contributions! Please feel free to dig into the code to fix a bug, [open a PR](TODO-url-here), and we'll make sure the effort gets the attention it deserves.
-- Feedback! All important to improving anything, we love to hear how you or your organization is using this code, what's working, what could be improved, and what isn't appreciated.
+- Feedback! All important to improving anything, we love to hear how you or your organization are using this code, what's working, what could be improved, and what isn't appreciated.
 - Resources! If there's any related project/effort that we can link to and help our community find resources and grow, the better! Open an issue to mention it or better yet open a PR to add to the documentation.
 
 ## Other Resources

@@ -106,3 +106,6 @@ out
 .yarn/unplugged
 .yarn/build-state.yml
 .pnp.*
+
+# Package build/dist
+dist
