@@ -23,16 +23,17 @@ In the `react` app, wrap the app root with the `NativeProvider` component.
 import { WebProvider } from 'webview-state-bridge';
 // ... Other code here ...
 <WebProvider>
-    <App />
+  <App />
 </WebProvider>
 ```
 
 ```jsx
-// react-native app root
+// react-native
 import { NativeProvider } from 'webview-state-bridge';
+import { WebView } from 'react-native-webview';
 // ... Other code here ...
 <NativeProvider>
-    <App />
+  <WebView source={{ uri: 'https://localhost:3000' }} />
 </NativeProvider>
 ```
 
@@ -110,7 +111,7 @@ Please see the example/starter at [nextjs-react-native-starter](https://github.c
 
 ## Contributing
 
-We strongly believe knowledge, work, and tools should be openly shared with the world. We face challenging times together as our planet rapidly changes, we need to collaborate to face these daunting challenges. If this project helps you or your organization build universal apps faster, please consider contributing to the ongoing development and maintenance of this effort. We welcome any and all contributions which may include (but not limited to) any of the following.
+We face difficult times together as our planet rapidly changes, we need to collaborate to face these daunting challenges. If this project helps you or your organization build universal apps faster, please consider contributing to the ongoing development and maintenance of this effort. We welcome any and all contributions which may include (but not limited to) any of the following.
 
 - Reporting bugs, asking questions, proposing improvements, or any other ideas by [opening an issue](TODO-url-here).
 - Documentation improvements, always appreciated!

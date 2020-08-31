@@ -25,12 +25,10 @@
 	"license": "MIT",
 	"main": "dist/cjs/index.js",
 	"module": "dist/esm/index.js",
-	"files": [
-		"dist"
-	],
+	"files": [ "dist" ],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/obsense/webview-state-bridge.git"
+		"url": "https://github.com/obsense/webview-state-bridge.git"
 	},
 	"scripts": {
 		"build": "rollup --config",
