@@ -1,11 +1,10 @@
-/* eslint-disable no-undef */
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import T from 'prop-types';
 
 const NativeProvider = ({ children }) => {
 	const ref = (node) => {
-		window.bridgeRef = node;
+		window.wsbWebViewRef = node;
 	};
 	const dispatch = useDispatch();
 	const onMessage = (e) => {

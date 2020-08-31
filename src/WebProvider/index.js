@@ -1,11 +1,9 @@
-/* eslint-disable no-undef */
 import React from 'react';
 import T from 'prop-types';
 import { useDispatch } from 'react-redux';
 
 const WebProvider = ({ children }) => {
 	const dispatch = useDispatch();
-
 	const handleData = (e) => {
 		dispatch(e.detail);
 	};

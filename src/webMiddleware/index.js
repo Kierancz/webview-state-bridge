@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 const webMiddleware = () => (next) => (action) => {
 	const result = next(action);
 	if (!action.type.includes('nativeData')) {

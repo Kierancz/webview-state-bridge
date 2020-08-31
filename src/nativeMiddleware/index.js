@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 const createEventDispatch = (data) =>
 	`setTimeout(function() { 
 		window.dispatchEvent(new CustomEvent('nativeData', { detail: ${JSON.stringify(data)} } ));
@@ -6,11 +5,11 @@ const createEventDispatch = (data) =>
     true;`;
 
 const nativeMiddleware = () => (next) => (action) => {
-	let result = next(action);
+	const result = next(action);
 
-	if (window.bridgeRef && !action.type.includes('webData')) {
+	if (window.wsbWebViewRef && !action.type.includes('webData')) {
 		const webEventDispatch = createEventDispatch(action);
-		window.bridgeRef.injectJavaScript(webEventDispatch);
+		window.wsbWebViewRef.injectJavaScript(webEventDispatch);
 	}
 
 	return result;
